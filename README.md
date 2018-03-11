@@ -16,11 +16,16 @@ Now clone the repository to your local:
 git clone "https://github.com/vivek-x-jha/CustomTerminal"
 ```
 
-Finally, paste the following commands:
+Paste the following commands to add them to your `.bashrc`:
 
 ```
 echo -e "\nchmod +x ${CUSTOM}/*.sh" >> "${HOME}/.bashrc"
 echo -e "\n${CUSTOM}/customize_prompt.sh" >> "${HOME}/.bashrc"
 echo -e "\n${CUSTOM}/colorize_ls.sh" >> "${HOME}/.bashrc"
 echo -e "\n${CUSTOM}/git_aliases.sh" >> "${HOME}/.bashrc"
+```
+Finally, reload your shell:
+
+```
+. ${HOME}/.bashrc
 ```
