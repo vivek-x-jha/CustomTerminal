@@ -1,7 +1,7 @@
 # CustomTerminal
 Creates custom Bash prompt, colorizes `ls` command, and adds common aliases
 
-![This is a demonstration of my customized Bash terminal](https://imgur.com/a/M8DMV "Sample terminal session")
+![Sample Terminal Session](screenshots/TerminalSession.png "Sample output of a terminal session with custom colors, prompt, and aliases")
 
 ## Installation
 Open a terminal session and paste the following lines of code:
