@@ -19,13 +19,13 @@ git clone "https://github.com/vivek-x-jha/CustomTerminal"
 Paste the following commands to add them to your `.bashrc`:
 
 ```
-echo -e '\nchmod +x "~/.bash_custom/*.sh"' >> "~/.bashrc"
-echo -e '\n"~/.bash_custom/customize_prompt.sh"' >> "~/.bashrc"
-echo -e '\n"~/.bash_custom/colorize_ls.sh"' >> "~/.bashrc"
-echo -e '\n"~/.bash_custom/git_aliases.sh"' >> "~/.bashrc"
+echo -e '\nchmod +x ~/.bash_custom/*.sh' >> ~/.bashrc
+echo -e '. ~/.bash_custom/customize_prompt.sh' >> ~/.bashrc
+echo -e '. ~/.bash_custom/colorize_ls.sh' >> ~/.bashrc
+echo -e '. ~/.bash_custom/git_aliases.sh' >> ~/.bashrc
 ```
 Finally, reload your shell:
 
 ```
-. "~/.bashrc"
+. ~/.bashrc
 ```
