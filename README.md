@@ -4,15 +4,14 @@ Creates custom Bash prompt, colorizes `ls` command, and adds common aliases
 ![Sample Terminal Session](screenshots/TerminalSession.png "Sample output of a terminal session with custom colors, prompt, and aliases")
 
 ## Installation
-Open a terminal session and paste the following line of code:
+Open a terminal session and paste the following line:
 
 ```
-mkdir $HOME/.bash_custom && cd $HOME/.bash_custom
-```
+mkdir -p $HOME/.bash_custom
 Now clone the repository to your local:
 
 ```
-git clone 'https://github.com/vivek-x-jha/CustomTerminal'
+git clone 'https://github.com/vivek-x-jha/CustomTerminal' $HOME/.bash_custom
 ```
 
 Paste the following command to add to your `.bashrc`:
