@@ -3,6 +3,12 @@
 # (sorted alphabetically)
 ################################################
 
+function glazy {
+      git add $1
+      git commit -m $2
+      git push
+}
+
 # Can only use this function on non-proxy terminal
 # function ghub {
 #     open $( git config remote.origin.url )
