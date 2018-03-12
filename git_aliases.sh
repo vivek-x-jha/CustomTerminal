@@ -3,9 +3,10 @@
 # (sorted alphabetically)
 ################################################
 
-function ghub {
-    open $( git config remote.origin.url )
-}
+# Can only use this function on non-proxy terminal
+# function ghub {
+#     open $( git config remote.origin.url )
+# }
 
 alias g='git'
 
