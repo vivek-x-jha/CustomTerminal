@@ -8,6 +8,8 @@ Open a terminal session and paste the following line:
 
 ```
 mkdir -p $HOME/.bash_custom
+```
+
 Now clone the repository to your local:
 
 ```
