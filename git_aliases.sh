@@ -3,6 +3,10 @@
 # (sorted alphabetically)
 ################################################
 
+function ghub {
+    open $( git config remote.origin.url )
+}
+
 alias g='git'
 
 alias ga='git add'
