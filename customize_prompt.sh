@@ -5,7 +5,7 @@
 ################################################
 
 # get current branch in git repo
-function parse_git_branch() {
+function parse_git_branch {
     BRANCH=$( git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/' )
     if [ ! "${BRANCH}" == "" ]
     then
@@ -79,7 +79,7 @@ PS1+="${WHITE}@"
 PS1+="${LIGHT_BLUE}\h" # hostname
 PS1+="${WHITE} | "
 PS1+="${LIGHT_YELLOW}\W " # current directory
-PS1+="${LIGHT_GREEN}\$( parse_git_branch )\n" # show git branch and status
+PS1+="${LIGHT_GREEN}$( parse_git_branch )\n" # show git branch and status
 PS1+="${LIGHT_GREEN}$ "
 PS1+="${RESET}"
 
