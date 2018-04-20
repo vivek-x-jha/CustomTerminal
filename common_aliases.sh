@@ -17,3 +17,4 @@ alias bashrc='$EDITOR $HOME/.bashrc'
 alias c='clear'
 alias dud='du -d 1 -h | sort -hr' # displays size of all files/folders of current directory sorted in descending size
 alias reload='. $HOME/.bashrc'
+alias connect='ssh -x sneogi@cdc-main-client00.bfd.walmart.com'
